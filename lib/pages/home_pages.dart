@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:indeed_project/pages/home_page.dart';
+import 'package:indeed_project/pages/jobs_page.dart';
 
 class HomeScreen extends StatefulWidget{
   @override
@@ -11,7 +12,8 @@ class _HomeScreenState extends State<HomeScreen>{
 
 
   final List<Widget> _tabs = [
-    HomeTab() //Ana Sayfa Sekmesi
+    HomeTab(),
+    JobsTab()//Ana Sayfa Sekmesi
   ];
 
   void _onItemTapped(int index){
